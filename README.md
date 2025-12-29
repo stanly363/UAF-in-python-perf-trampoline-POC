@@ -2,7 +2,7 @@
 
 **Bug Type:** Race Condition / Use-After-Free (UAF)  
 **Component:** `Python/perf_trampoline.c`  
-**Affected Versions:** Python 3.12, 3.13, 3.14 (Fixed in latest patches)
+**Affected Versions:** Python 3.12, 3.13, 3.14 (Fixed in latest branch)
 
 ## 📝 Description
 I discovered a **Race Condition** and **Use-After-Free (UAF)** vulnerability in Python's `perf_trampoline` implementation (used for Linux `perf` profiling support).
